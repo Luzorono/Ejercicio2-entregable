@@ -12,7 +12,7 @@
     height: 70px;
     background-color: #0e2634;
     padding:10px 50px;
-    display:flex;
+    display: flex;
     justify-content:space-between;
     align-items:center;
 }
