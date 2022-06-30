@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 .navbar{
-    height: 100px;
+    height: 70px;
     background-color: #0e2634;
     padding:10px 50px;
     display:flex;
@@ -20,7 +20,7 @@
     width: 100%;
     max-width: 120px;
     min-width: 60px;
-    max-height: 103px;
+    max-height: 73px;
 }
 .menu {
     height: 100%;
@@ -58,4 +58,88 @@
     font-family: var(--font-family);
     justify-content: center;
     align-items: center;
+}
+
+/* ************************************ */ 
+
+.rest {
+    background-color: rgb(240, 238, 238);
+
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0 70px;
+}
+.hero_text{
+    flex-direction: column;
+    padding: 20px 70px;
+    font-family: var(--font-family);
+}
+.hero_text h1 {
+    text-align: left;
+    padding: 0px 0px 80px;
+    font-size: 40px;
+    color: #0e2634;
+}
+.hero_text h2{
+    text-align: left;
+    font-size: 15px;
+    padding: 0px 0px ;
+    margin-bottom: 100px;
+    color: gray;
+}
+.action{
+    font-family: var(--font-family);
+    padding: 6px 23px;
+    background-color: #0e2634;
+    color: #fafafa;
+    border-radius: 18px;
+    font-weight: 600;
+    border-color: #0e2634;
+    cursor: pointer;
+}
+.action:hover{
+    background-color: #fafafa;
+    color: #0e2634;
+    border-color: #0e2634;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.more{
+    font-family: var(--font-family);
+    padding: 6px 23px;
+    background-color: #fafafa;
+    color: #0e2634;
+    border-radius: 18px;
+    margin-left: 20px;
+    font-weight: 600;
+    border-color: #0e2634;
+    cursor: pointer;
+}
+.more:hover{
+    background-color: #0e2634;
+    color: #fafafa;
+    border-color: #0e2634;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.hero .ilustracion img{
+    display: flex;
+    width: 520px;
+    height: 520px;
+    margin: 18px 50px;
+}
+.about{
+    background-color: rgb(173, 152, 250);
+    color: #0e2634;
+    font-family: var(--font-family);
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    margin: 0px 70px;
+    padding: 100px 100px;
+
 }
